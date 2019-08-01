@@ -1,9 +1,15 @@
 import React from 'react'
 import styles from './Box.module.css'
+import { Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 
 const Box = () => {
     return (
+<Container>
+    <Row>
+        <Col md={{ span: 6, offset: 3 }}>
             <div className={`dropdown-menuL ${styles.boxit}`}>
                 <form className="px-4 py-3">
                     <div className="form-group">
@@ -26,7 +32,9 @@ const Box = () => {
                 <a className="dropdown-item" href="#">New around here? Sign up</a>
                 <a className="dropdown-item" href="#">Forgot password?</a>
             </div>
-
+        </Col>
+    </Row>
+</Container>
     )
 }
 
