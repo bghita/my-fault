@@ -2,4 +2,13 @@
     font-family: 'Saira Stencil One', cursive;
     font-size: 40px;
     color: rgb(7, 7, 163);
+    margin-left:30px;
+}
+
+.button {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#logout {
+    margin-left: 1010px;
 }
