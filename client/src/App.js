@@ -3,16 +3,16 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Navbar from "./components/NavBar/NavBar";
 import Box from './components/Box/Box';
-import Home from './components/Pages/Home/Home';
+import Signup from './components/Pages/Signup/Signup';
 import './App.css';
+import Login from './components/Pages/Login/Login';
 
 function App() {
   return (
     <Router>
         <Route path="/" component={Navbar}/>
-        <Route exact path="/home" component={Home}/>
-        
-          
+        <Route exact path="/signup" component={Signup}/>
+        <Route exact path="/login" component={Login}/>
     </Router>
   );
 }
