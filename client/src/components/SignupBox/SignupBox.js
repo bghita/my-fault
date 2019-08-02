@@ -1,17 +1,16 @@
 import React from 'react'
 import './SignupBox.css'
-import { Container } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col, Form, Button } from 'react-bootstrap';
+import { Col, Form, Button, Row, Container } from 'react-bootstrap';
 
 
 const SignupBox = () => {
     return (
-    <div className="SignBox">
+    <div>
         <Container>
-            <Row>
-                <Col>
-                    <Form className="boxit" md={{ span: 4, offset: 8 }}>
+            <Row className="justify-content-md-center">
+                <Col md="8" className="SignBox mt-5">
+                    <Form className="m-3" md={{ span: 4, offset: 8 }}>
+                        <p className="title2">Sign Up</p>
                             <Form.Group controlId="formBasicEmail">
                             <Form.Label>First Name</Form.Label>
                             <Form.Control type="First Name" placeholder="First Name" />
@@ -27,8 +26,8 @@ const SignupBox = () => {
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Sign Up
+                        <Button className="signup" variant="primary" type="submit">
+                            Submit
                         </Button>
                     </Form>
                 </Col>

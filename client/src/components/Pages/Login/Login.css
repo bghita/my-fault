@@ -1,4 +1,14 @@
 .background {
     background-image: url("../../Images/gps.jpg");
     height: 100vh;
-}  
+}
+.login {
+    float:right;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 34px;
+    font-family: 'Saira Stencil One', cursive;
+    color: rgb(248, 252, 248);
+    text-shadow: 0px 0px 30px rgb(0, 195, 255), 0px 0px 30px rgb(6, 29, 158);
+}
