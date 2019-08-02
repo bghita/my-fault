@@ -6,7 +6,7 @@ import { Col, Form, Button, Row, Container } from 'react-bootstrap';
 const SignupBox = () => {
     return (
     <div>
-        <Container>
+        <Container className="mb-5">
             <Row className="justify-content-md-center">
                 <Col md="8" className="SignBox mt-3">
                     <Form className="m-2" md={{ span: 4, offset: 8 }}>
