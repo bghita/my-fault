@@ -1,11 +1,10 @@
 import React from "react";
-
-const Container = (props) => {
-    return (
-        <div className="container bg-secondary">
+import "../Container"
+const Row = (props) => {
+    return(
+        <div className="container">
             {props.children}
         </div>
     )
 }
-
-export default Container;
+export default Row;
