@@ -1,48 +1,60 @@
 import React from 'react';
 import "./Carousel.css";
+import { Carousel, Row, Col, Container } from 'react-bootstrap';
+import Gif1 from "./../Images/gif3.webp";
+import Gif2 from "./../Images/gif2.gif";
+import Gif3 from "./../Images/gif1.gif";
 
-const Carousel = () => {
+const Images = () => {
     return (
-        <div className="background">
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
-                        alt="Third slide"
-                    />
+        <div>
+            <Container>
+                <Row className="justify-content-md-center">
+                    <Col md="8" className="mt-3">
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                    height="300px;"
+                                    className="d-block w-100 mx-auto"
+                                    src={Gif2}
+                                    alt="First slide"
+                                />
+                                <Carousel.Caption>
+                                    <h4>Talk about it</h4>
+                                    <p>Don't ignore it, the faults dont wait..</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    height="300px;"
+                                    className="d-block w-100 mx-auto"
+                                    src={Gif1}
+                                    alt="Third slide"
+                                />
+                                <Carousel.Caption>
+                                    <h4>Plan</h4>
+                                    <p>Prepare your emergency routes today</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    height="300px;"
+                                    className="d-block w-100 mx-auto"
+                                    src={Gif3}
+                                    alt="Third slide"
+                                />
 
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                                <Carousel.Caption>
+                                    <h3>Stay Connected</h3>
+                                    <p>Make your earthquake kit today and be prepared</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }
 
-export default Carousel;
+export default Images;
