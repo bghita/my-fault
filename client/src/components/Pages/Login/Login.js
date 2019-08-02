@@ -7,7 +7,6 @@ const Login = () => {
         <div className="background">
             <br></br>
             <br></br>
-            <Box/>
         </div>
     )
 }
