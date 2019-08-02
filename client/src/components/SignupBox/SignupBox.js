@@ -9,7 +9,7 @@ const SignupBox = () => {
         <Container>
             <Row className="justify-content-md-center">
                 <Col md="8" className="SignBox mt-5">
-                    <Form className="m-3" md={{ span: 4, offset: 8 }}>
+                    <Form className="m-2" md={{ span: 4, offset: 8 }}>
                         <p className="title2">Sign Up</p>
                             <Form.Group controlId="formBasicEmail">
                             <Form.Label>First Name</Form.Label>

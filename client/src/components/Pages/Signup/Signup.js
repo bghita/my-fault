@@ -1,16 +1,14 @@
 import React from 'react';
 import "./Signup.css";
-import Box from './../../Box/Box';
-import { Carousel } from 'react-bootstrap';
+import Image from "./../../Carousel/Carousel";
 import SignupBox from '../../SignupBox/SignupBox';
 
 
 const Signup = () => {
     return (
         <div className="background">
-            <Carousel></Carousel>
+            <Image/>
             <SignupBox></SignupBox>
-            <Box/>
         </div>
     )
 }
