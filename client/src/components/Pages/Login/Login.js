@@ -12,11 +12,11 @@ const Login = () => {
                     <Form className="m-3" md={{ span: 4, offset: 8 }}>
                         <p className="title">Log In</p>
                             <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label className="font">Email address</Form.Label>
                             <Form.Control type="email" placeholder="example@gmail.com" />
                         </Form.Group>
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
+                            <Form.Label className="font">Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
                         <a className="dropdown-item" href="/signup">New around here? Sign up</a>

@@ -10,7 +10,7 @@ const Images = () => {
         <div>
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col md="8" className="mt-5">
+                    <Col md="8" className="mt-3">
                         <Carousel>
                             <Carousel.Item>
                                 <img
