@@ -9,11 +9,14 @@ const ResourceCard = (props) => {
                 <a href={props.href}>
                     <img class="card-img-top" src={props.imgUrl} alt="Card cap" />
                 </a>
-                
+
                 <div class="title text-center">{props.title}</div>
                 <div className="h1">
-                    <p class="body" style={{ fontSize: "14px" }}>{props.description}</p>
-                   {/* <a href="#" class="btn btn-primary"></a> */}
+                    {/* <p class="body" style={{ fontSize: "14px" }}>{props.description}</p> */}
+                    <ul className="body" style={{ fontSize: "14px", marginTop: "5px" }}>
+                        {props.description.map(sentence => <li key={sentence}>{sentence}</li>)}
+                        </ul>
+                    {/* <a href="#" class="btn btn-primary"></a> */}
                 </div>
             </div>
         </div>
