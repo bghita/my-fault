@@ -1,27 +1,20 @@
 // sets up Resource Cards for Resource Page
 import React from "react";
+import { Card, Container, Col } from "react-bootstrap";
 
 const ResourceCard = (props) => {
     return (
-        <div className="col-md-4">
-            <div class="card" style={{ width: "18em" }}>
-
-                <a href={props.href}>
-                    <img class="card-img-top" src={props.imgUrl} alt="Card cap" />
-                </a>
-
-                <div class="title text-center">{props.title}</div>
-                <div className="h1">
-                    {/* <p class="body" style={{ fontSize: "14px" }}>{props.description}</p> */}
-                    <ul className="body" style={{ fontSize: "14px", marginTop: "5px" }}>
-                        {props.description.map(sentence => <li key={sentence}>{sentence}</li>)}
-                        </ul>
-                    {/* <a href="#" class="btn btn-primary"></a> */}
-                    {/* <img class="animated-gif" src+"https://media.gifphy.com/media/Wq6DnHvHchrTG/giphy.gif"> */}
-                </div>
-            </div>
-        </div>
-
+                <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                    <Card.Header>Header</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Dark Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk
+                            of the card's content.
+                </Card.Text>
+                    </Card.Body>
+                </Card>
     )
 }
+                
 export default ResourceCard;

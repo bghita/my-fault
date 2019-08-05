@@ -26,11 +26,13 @@ class EarthquakesContainer extends Component {
                 this.setState({ quakes: json.features })
             })
     }
+    
 
     render() {
         return (
-            <div className="EarthquakesContainer">
-                    <Container fluid={true}>
+            <div className="background">
+            <div className="EarthquakesContainer" >
+                    <Container fluid={false} className="SignBox">
                     <Row>
                     <Col md={3}>
                     <EarthquakesForm onFilter={this.onFilter} /></Col>
@@ -39,6 +41,7 @@ class EarthquakesContainer extends Component {
                     </Col>
                     </Row>
                     </Container>
+            </div>
             </div>
         );
     }

@@ -1,3 +1,24 @@
 .filterQuake{
-    font-family: 'Saira Stencil One', cursive;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top:20px;
+    padding-left:30px;
+}
+.myButton{
+    float:right;
+    color:white;
+    background-color: rgb(8, 8, 173);
+}
+.button{
+    margin-left: 15px;
+}
+.center{
+    text-align: center;
+} 
+.mag{
+    padding-left:20px;
+} 
+.SignBox{
+    background-color: rgba(255, 255, 255, 0.753);
+    padding-top: 20px;
+    padding-bottom:20px;
 }
