@@ -14,7 +14,7 @@ function App() {
         <ResourceCard imgUrl="https://media.giphy.com/media/FyRqWrXtj2W9G/giphy.gif" href="http://www.femaevachotels.com/index.php" title="Find Hotel" description={["Search for hotels in your state and city.", "Locates hotels that are pet friendly.", "Hotels have affordable rates for the night."]} />
 
         {/* Medication */}
-        <ResourceCard imgUrl="https://media.giphy.com/media/MaZiCmnaOnXlvbeqIF/giphy.gif" href="" title="Find Medication" description={["CVS", "Kaiser Permanente"]} />
+        <ResourceCard imgUrl="https://media.giphy.com/media/MaZiCmnaOnXlvbeqIF/giphy.gif" href="" title="Find Medication" description={["CVS (800) 746-7287", "Walgreens 877-250-5823", "Kaiser Permanente (855) 470-3815"]} />
 
         {/* podcast */}
         <ResourceCard imgUrl="http://giphygifs.s3.amazonaws.com/media/LwxzFXEymTsf6/giphy.gif" href="https://play.google.com/music/listen?u=0#/ps/Iydeahoa4jeyayosfeqh36zvnfm" title="Podcast" description={["Click the picture to hear the emergency podcast."]} />
@@ -46,7 +46,7 @@ function App() {
 
       <Row>
         {/* pet preparedness */}
-        <ResourceCard imgUrl="https://media.giphy.com/media/3o6Zt9pe4yTFeYaul2/giphy.gif" href="https://www.fema.gov/blog/2019-06-13/pet-preparedness-10-items-youll-need-your-pets-hurricane-emergency-kit" title="Pets" description={["10 things that will helps your pet(s). Remember they are family too."]} />
+        <ResourceCard imgUrl="https://media.giphy.com/media/l2JhtCMwgCLcRXmgg/giphy.gif" href="https://www.fema.gov/blog/2019-06-13/pet-preparedness-10-items-youll-need-your-pets-hurricane-emergency-kit" title="Pets" description={["10 things that will helps your pet(s). Remember they are family too."]} />
 
         {/* dog walking */}
         <ResourceCard imgUrl="https://media.giphy.com/media/8zFpA8HgcewXC/giphy.gif" href="" title="Dog Walking Serivces" description={["If you are unable to get home to walk or feed your pets, visit Wag or Rover."]} />
