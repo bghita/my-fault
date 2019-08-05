@@ -1,6 +1,8 @@
 // sets up Resource Cards for Resource Page
 import React from "react";
 import "./ResourceCard.css"
+import {Link} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ResourceCard = (props) => {
     return (
@@ -15,15 +17,12 @@ const ResourceCard = (props) => {
                 <div className="h1">
 
                     <ul className="body" style={{ fontSize: "16px", marginTop: "5px" }}>
-                        {props.description.map(sentence => <li key={sentence}>{sentence}</li>)}
-                    </ul>
-
-                    {/* new code needs to be in src as a a prop */}
-                    {/* <Route path='#' description = {[
-                        {description: "CVS", url:"www.cvs.com"}{description: "Kaiser Perm"}
-                    ]}
-                        {props.description.map((sentence => {description: "Kaiser Permanente", url:"#"}) => <li key={sentence.url}>{sentence.description}</li>)}
-             */}
+                        {props.description.map(sentence => 
+                        <li key={sentence.description}>
+                            <a href={sentence.url} target="_blank"> {sentence.description}</a>
+                        </li>
+                        )}
+                    </ul>       
 
 
                 </div>
