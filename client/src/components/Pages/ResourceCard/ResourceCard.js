@@ -17,6 +17,7 @@ const ResourceCard = (props) => {
                         {props.description.map(sentence => <li key={sentence}>{sentence}</li>)}
                         </ul>
                     {/* <a href="#" class="btn btn-primary"></a> */}
+                    {/* <img class="animated-gif" src+"https://media.gifphy.com/media/Wq6DnHvHchrTG/giphy.gif"> */}
                 </div>
             </div>
         </div>
