@@ -8,7 +8,7 @@ const Login = () => {
         <div className="background">
             <Container>
             <Row className="justify-content-md-center">
-                <Col md="5" className="SignBox mt-5">
+                <Col md="5" className="signBox mt-5">
                     <Form className="m-3" md={{ span: 4, offset: 8 }}>
                         <p className="title">Log In</p>
                             <Form.Group controlId="formBasicEmail">

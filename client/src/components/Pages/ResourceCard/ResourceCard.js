@@ -29,6 +29,17 @@ const ResourceCard = (props) => {
             </div>
         </div>
 
+                    <ul className="body" style={{ fontSize: "16px", marginTop: "5px" }}>
+                        {props.description.map(sentence =>
+                            <li key={sentence.description}>
+                                <a href={sentence.url} target="_blank" rel="noopener noreferrer"> {sentence.description}</a>
+                            </li>
+                        )}
+                    </ul>
+
+                </div>
+            </Card>
+        </Col>
     )
 }
 export default ResourceCard;
