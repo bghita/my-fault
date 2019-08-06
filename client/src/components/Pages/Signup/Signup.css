@@ -1,4 +1,6 @@
 .background {
     background-image: url("../../Images/gps.jpg");
-    background-size: auto;
-}  
+    width: 100%;
+    height: 880px;
+    background-size:cover;
+}
