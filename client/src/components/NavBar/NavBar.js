@@ -10,7 +10,7 @@ const NavBar = (props) => {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/">Resources</Nav.Link>
             </Nav>
-                <Button variant="outline-primary" href="/login" id="logout">Log Out</Button>
+            <Button variant="outline-primary" href="/login" id="logout">Log Out</Button>
         </Navbar>
     )
 }
