@@ -1,7 +1,7 @@
 import React from 'react';
 import ResourceCard from "../ResourceCard/ResourceCard";
 import { Container, Row, Button, Col } from "react-bootstrap";
-import './Resource.css';
+import './Resource2.css';
 
 function Resources() {
     return (
