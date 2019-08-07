@@ -1,7 +1,7 @@
 import React from 'react';
 import ResourceCard from "../ResourceCard/ResourceCard";
-// import "./ResourceCard.css"
 import { Container, Row, Col } from "react-bootstrap";
+import "./Resources.css";
 
 function Resources() {
   return (
@@ -51,11 +51,8 @@ function Resources() {
             description={[
               { description: "Quake Kare", url: "https://www.quakekare.com/emergency-earthquake-kits-c-8_9/?gclid=Cj0KCQjwvo_qBRDQARIsAE-bsH9Ky6adSJCGQfyqg63iTywxsVImHVEQGAgRg2vp7MVBetStFQyQhu8aAhZzEALw_wcB" },
               { description: "Amazon Supplies", url: "https://www.amazon.com/s?k=emergency+food&crid=1DH4FMBTQB7GA&sprefix=emer%2Caps%2C258&ref=nb_sb_ss_i_7_4" },
-<<<<<<< Updated upstream
-              ]} />
-=======
             ]} />
->>>>>>> Stashed changes
+
         </Row>
 
         {/* <h1>Be Prepared</h1> */}

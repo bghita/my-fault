@@ -24,27 +24,6 @@ const ResourceCard = (props) => {
                 </div>
             </Card>
         </Col>
-        // <div className="col-md-4">
-        //     <div class="card" style={{ width: "18em" }}>
-
-        //         <a href={props.href}>
-        //             <img className="card-img-top imgUrl" src={props.imgUrl} alt="Card cap" />
-        //         </a>
-
-        //         <div className="title text-center">{props.title}</div>
-        //         <div className="h1">
-
-        //             <ul className="body" style={{ fontSize: "16px", marginTop: "5px" }}>
-        //                 {props.description.map(sentence =>
-        //                     <li key={sentence.description}>
-        //                         <a href={sentence.url} target="_blank"> {sentence.description}</a>
-        //                     </li>
-        //                 )}
-        //             </ul>
-
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
 export default ResourceCard;
