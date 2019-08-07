@@ -7,7 +7,7 @@ import { Col, Card } from "react-bootstrap"
 const ResourceCard = (props) => {
     return (
         <Col md={4} xs={12} className="my-1">
-            <Card style={{ backgroundColor:"lightgrey", boarder: "", opacity: "50%" }}>
+            <Card style={{ backgroundColor:"grey", opacity: "40%" }}>
                 <Card.Img variant="top" src={props.imgUrl}  style={{width:"100%", height:"130px"}}/>
                 <Card.Title>{props.title}</Card.Title>
                 
