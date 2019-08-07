@@ -7,11 +7,6 @@ function Resources() {
   return (
     <div className="background">
 
-      {/* const Changebackground = () => {
-  stylesResource = {
-    background: "green"
-  }; */}
-
       <Container className="signBox">
         <Row>
           <Col>
@@ -39,15 +34,6 @@ function Resources() {
         </Row>
 
         <Row>
-          {/* social media */}
-          {/* <ResourceCard imgUrl="http://giphygifs.s3.amazonaws.com/media/L8QmMBDvxVKrm/giphy.gif" href="" title="Social Media"
-          description={[
-            { description: "Twitter", url: "https://www.twitter.com" },
-            { description: "Facebook", url: "https://www.facebook.com" },
-            { description: "Snapchat", url: "https://www.snapchat.com" },
-            { description: "Instagram", url: "https://www.instagram.com" }
-          ]} /> */}
-
           {/* PG & E */}
           <ResourceCard imgUrl="https://media.giphy.com/media/TFOLtH7FaBfpu/giphy.gif" href="https://www.pge.com/en_US/safety/report-emergency/report-emergency.page?WT.pgeac=Home_Emergency" title="PG & E"
             description={[
@@ -88,16 +74,6 @@ function Resources() {
             description={[
               { description: "Get advice on cost and other questions on retrofit a home or building" },
             ]} />
-        </Row>
-
-        <Row>
-          {/* dog walking */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/8zFpA8HgcewXC/giphy.gif" href="https://wagwalking.com/" title="Dog Walking Serivces"
-          description={[
-            { description: "If you are unable to get home to walk or feed your pets visit:" },
-            { description: "Wag", url: "https://wagwalking.com/" },
-            { description: "Rover", url: "https://www.rover.com/" }
-          ]} /> */}
         </Row>
       </Container>
     </div >
