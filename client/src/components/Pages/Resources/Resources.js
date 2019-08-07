@@ -5,6 +5,7 @@ import "./Resources.css";
 
 function Resources() {
   return (
+
     <div className="background">
       <Container className="signBox">
         <Row>
@@ -49,7 +50,7 @@ function Resources() {
           <ResourceCard imgUrl="https://media.giphy.com/media/26uf3GPKideludyj6/giphy.gif" href="https://www.quakekare.com/emergency-earthquake-kits-c-8_9/?gclid=Cj0KCQjwvo_qBRDQARIsAE-bsH9Ky6adSJCGQfyqg63iTywxsVImHVEQGAgRg2vp7MVBetStFQyQhu8aAhZzEALw_wcB" title="Supplies"
             description={[
               { description: "Quake Kare", url: "https://www.quakekare.com/emergency-earthquake-kits-c-8_9/?gclid=Cj0KCQjwvo_qBRDQARIsAE-bsH9Ky6adSJCGQfyqg63iTywxsVImHVEQGAgRg2vp7MVBetStFQyQhu8aAhZzEALw_wcB" },
-              { description: "Amazon Supplies", url: "https://www.amazon.com/s?k=emergency+food&crid=1DH4FMBTQB7GA&sprefix=emer%2Caps%2C258&ref=nb_sb_ss_i_7_4" } 
+              { description: "Amazon Supplies", url: "https://www.amazon.com/s?k=emergency+food&crid=1DH4FMBTQB7GA&sprefix=emer%2Caps%2C258&ref=nb_sb_ss_i_7_4" },
             ]} />
         </Row>
 
@@ -73,8 +74,10 @@ function Resources() {
               { description: "Get advice on cost and other questions on retrofit a home or building" },
             ]} />
         </Row>
+
       </Container>
-    </div >
+    </div>
+
   );
 }
 
