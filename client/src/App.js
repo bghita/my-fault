@@ -8,6 +8,7 @@ import Resources2 from "./components/Pages/Resources2/Resources2";
 import Resources from "./components/Pages/Resources/Resources";
 import Footer from "./components/Footer/Footer";
 import oAuth from "./utils/";
+import Info from "./components/Pages/Info/Info";
 
 class App extends React.Component {
   state = {
@@ -33,9 +34,11 @@ class App extends React.Component {
     return (
       <Router>
         <Route path="/" component={Navbar} />
+        <Route exact path="/" component={Info} />
         <Route exact path="/signup" render={(props) => <Signup {...this.state} {...props} oAuthSignup={this.handleSignup} />} />
         <Route exact path="/login" render={(props) => <Signin {...this.state} {...props} oAuthSignin={this.handleSignin} />} />
         <Route exact path="/resources" component={Resources} />
+        <Route exact path="/mobile" component={Resources2}/>
         <Route exact path="/home" component={EarthquakesContainer} />
         <Footer />
       </Router>
