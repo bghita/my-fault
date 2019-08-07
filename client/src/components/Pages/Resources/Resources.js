@@ -1,17 +1,11 @@
 import React from 'react';
 import ResourceCard from "../ResourceCard/ResourceCard";
-// import "./ResourceCard.css"
 import { Container, Row, Col } from "react-bootstrap";
+import "./Resources.css";
 
 function Resources() {
   return (
     <div className="background">
-
-      {/* const Changebackground = () => {
-  stylesResource = {
-    background: "green"
-  }; */}
-
       <Container className="signBox">
         <Row>
           <Col>
@@ -39,15 +33,6 @@ function Resources() {
         </Row>
 
         <Row>
-          {/* social media */}
-          {/* <ResourceCard imgUrl="http://giphygifs.s3.amazonaws.com/media/L8QmMBDvxVKrm/giphy.gif" href="" title="Social Media"
-          description={[
-            { description: "Twitter", url: "https://www.twitter.com" },
-            { description: "Facebook", url: "https://www.facebook.com" },
-            { description: "Snapchat", url: "https://www.snapchat.com" },
-            { description: "Instagram", url: "https://www.instagram.com" }
-          ]} /> */}
-
           {/* PG & E */}
           <ResourceCard imgUrl="https://media.giphy.com/media/TFOLtH7FaBfpu/giphy.gif" href="https://www.pge.com/en_US/safety/report-emergency/report-emergency.page?WT.pgeac=Home_Emergency" title="PG & E"
             description={[
@@ -65,7 +50,6 @@ function Resources() {
             description={[
               { description: "Quake Kare", url: "https://www.quakekare.com/emergency-earthquake-kits-c-8_9/?gclid=Cj0KCQjwvo_qBRDQARIsAE-bsH9Ky6adSJCGQfyqg63iTywxsVImHVEQGAgRg2vp7MVBetStFQyQhu8aAhZzEALw_wcB" },
               { description: "Amazon Supplies", url: "https://www.amazon.com/s?k=emergency+food&crid=1DH4FMBTQB7GA&sprefix=emer%2Caps%2C258&ref=nb_sb_ss_i_7_4" },
-              ]} />
         </Row>
 
         {/* <h1>Be Prepared</h1> */}
@@ -88,16 +72,6 @@ function Resources() {
             description={[
               { description: "Get advice on cost and other questions on retrofit a home or building" },
             ]} />
-        </Row>
-
-        <Row>
-          {/* dog walking */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/8zFpA8HgcewXC/giphy.gif" href="https://wagwalking.com/" title="Dog Walking Serivces"
-          description={[
-            { description: "If you are unable to get home to walk or feed your pets visit:" },
-            { description: "Wag", url: "https://wagwalking.com/" },
-            { description: "Rover", url: "https://www.rover.com/" }
-          ]} /> */}
         </Row>
       </Container>
     </div >
