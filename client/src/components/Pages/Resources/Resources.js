@@ -1,21 +1,15 @@
 import React from 'react';
 import ResourceCard from "../ResourceCard/ResourceCard";
-// import "./ResourceCard.css"
 import { Container, Row, Col } from "react-bootstrap";
+import "./Resources.css";
 
 function Resources() {
   return (
-    <div>
-
-      {/* const Changebackground = () => {
-  stylesResource = {
-    background: "green"
-  }; */}
-
-      <Container>
+    <div className="background">
+      <Container className="signBox">
         <Row>
           <Col>
-            <h1>Emergency Resources</h1>
+            <h1 className="title">Emergency Resources</h1>
           </Col>
         </Row>
         <Row>
@@ -42,15 +36,6 @@ function Resources() {
         </Row>
 
         <Row>
-          {/* social media */}
-          {/* <ResourceCard imgUrl="http://giphygifs.s3.amazonaws.com/media/L8QmMBDvxVKrm/giphy.gif" href="" title="Social Media"
-          description={[
-            { description: "Twitter", url: "https://www.twitter.com" },
-            { description: "Facebook", url: "https://www.facebook.com" },
-            { description: "Snapchat", url: "https://www.snapchat.com" },
-            { description: "Instagram", url: "https://www.instagram.com" }
-          ]} /> */}
-
           {/* PG & E */}
           <ResourceCard imgUrl="https://media.giphy.com/media/l4Ki9kSidioZfrENa/giphy.gif" href="https://www.pge.com/en_US/safety/report-emergency/report-emergency.page?WT.pgeac=Home_Emergency" title="PG & E"
             description={[
@@ -72,14 +57,6 @@ function Resources() {
               { description: "Whole Foods", url: "https://www.wholefoodsmarket.com/online-ordering?gclid=CjwKCAjwyqTqBRAyEiwA8K_4O5V3yi4B8F5T96VsLsI7U96h1O7WxMRPYhDMeLhgMLc8expY1-fiRRoCndoQAvD_BwE" },
               { description: "Safeway Food Delivery Service", url: "https://shop.safeway.com/home.html?zipcode=94611&cmpid=ps_swy_noc_ecom_goo&r=https%3A%2F%2Fwww.google.com%2F" }
             ]} />
-
-          {/* phone link */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/1SyXpUUfyAe1Yx8rUU/giphy.gif" href="" title="Phone Numbers"
-          description={[
-            { description: "911 Emergency" },
-            { description: "#411 Information Services" },
-            { description: "Personal phone numbers of family and friends." }
-          ]} /> */}
         </Row>
 
         {/* <h1>Be Prepared</h1> */}
@@ -103,30 +80,6 @@ function Resources() {
             description={[
               { description: "Get advice on cost and other questions on retrofit a home or building" },
             ]} />
-        </Row>
-
-        <Row>
-          {/* dog walking */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/8zFpA8HgcewXC/giphy.gif" href="https://wagwalking.com/" title="Dog Walking Serivces"
-          description={[
-            { description: "If you are unable to get home to walk or feed your pets visit:" },
-            { description: "Wag", url: "https://wagwalking.com/" },
-            { description: "Rover", url: "https://www.rover.com/" }
-          ]} /> */}
-        </Row>
-
-        <Row>
-          {/* locksmith */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/Z1FlpamrHC8hy/giphy.gif" href="#" title="Locksmith Services"
-          description={[
-            { description: "", url:"" }
-          ]} /> */}
-
-          {/* towing services */}
-          {/* <ResourceCard imgUrl="https://media.giphy.com/media/xT5LMOzPaDffpaUbfO/giphy.gif" href="" title="Towing Services"
-          description={[
-            { description: "AAA", url: "https://AAA.com" }
-          ]} /> */}
         </Row>
       </Container>
     </div >

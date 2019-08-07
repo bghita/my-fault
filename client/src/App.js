@@ -4,7 +4,8 @@ import Navbar from "./components/NavBar/NavBar";
 import Signup from "./components/Pages/Signup/Signup";
 import Signin from './components/Pages/Login/Login';
 import EarthquakesContainer from './components/Services/EarthquakesContainer';
-import Resources from "./components/Pages/Resources2/Resources2";
+import Resources2 from "./components/Pages/Resources2/Resources2";
+import Resources from "./components/Pages/Resources/Resources";
 import Footer from "./components/Footer/Footer";
 import oAuth from "./utils/";
 
@@ -43,5 +44,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
