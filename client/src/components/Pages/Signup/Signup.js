@@ -4,11 +4,11 @@ import Image from "./../../Carousel/Carousel";
 import SignupBox from '../../SignupBox/SignupBox';
 
 
-const Signup = () => {
+const Signup = (props) => {
     return (
         <div className="background">
             <Image/>
-            <SignupBox></SignupBox>
+            <SignupBox oAuthSignup={props.oAuthSignup}/>
         </div>
     )
 }
