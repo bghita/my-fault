@@ -36,6 +36,7 @@ class App extends React.Component {
         <Route exact path="/signup" render={(props) => <Signup {...this.state} {...props} oAuthSignup={this.handleSignup} />} />
         <Route exact path="/login" render={(props) => <Signin {...this.state} {...props} oAuthSignin={this.handleSignin} />} />
         <Route exact path="/resources" component={Resources} />
+        <Route exact path="/mobile" component={Resources2}/>
         <Route exact path="/home" component={EarthquakesContainer} />
         <Footer />
       </Router>

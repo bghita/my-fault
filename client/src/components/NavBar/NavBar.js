@@ -8,7 +8,7 @@ const NavBar = (props) => {
             <Navbar bg="light" variant="light">
                 <Navbar.Brand id="Nav">My Fault</Navbar.Brand>
                 <Nav className="button">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/home">Home</Nav.Link>
                     <Nav.Link href="/resources">Resources</Nav.Link>
                 </Nav>
                 <Button className="ml-auto" variant="outline-primary" href="/login">Log Out</Button>
