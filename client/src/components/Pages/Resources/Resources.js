@@ -16,7 +16,7 @@ function Resources() {
         <Row>
           {/* hotel search */}
           <ResourceCard imgUrl="https://media.giphy.com/media/FyRqWrXtj2W9G/giphy.gif" href="http://www.femaevachotels.com/index.php" title="Find Hotel" description={[
-            { description: "Search for hotels in your state and city that are affordable & pet friendly." },
+            { description: "Search for hotels in your state and city that are affordable & pet friendly.", url: "http://www.femaevachotels.com/index.php" },
           ]} />
 
           {/* Medication */}
@@ -29,7 +29,7 @@ function Resources() {
           {/* podcast */}
           <ResourceCard imgUrl="http://giphygifs.s3.amazonaws.com/media/LwxzFXEymTsf6/giphy.gif" href="https://play.google.com/music/listen?u=0#/ps/Iydeahoa4jeyayosfeqh36zvnfm" title="Podcast"
             description={[
-              { description: "Click the picture to hear the emergency podcast." }
+              { description: "Click the link to hear the emergency podcast.", url: "https://play.google.com/music/listen?u=0#/ps/Iydeahoa4jeyayosfeqh36zvnfm" }
             ]} />
         </Row>
 
@@ -37,13 +37,13 @@ function Resources() {
           {/* PG & E */}
           <ResourceCard imgUrl="https://media.giphy.com/media/TFOLtH7FaBfpu/giphy.gif" href="https://www.pge.com/en_US/safety/report-emergency/report-emergency.page?WT.pgeac=Home_Emergency" title="PG & E"
             description={[
-              { description: "1-800-743-5000 PG & E report a gas leak, or downed line." }
+              { description: "1-800-743-5000 PG & E report a gas leak, or downed line.", url: "https://www.pge.com/en_US/safety/report-emergency/report-emergency.page?WT.pgeac=Home_Emergency" }
             ]} />
 
           {/* Animal shelter */}
           <ResourceCard imgUrl="https://media.giphy.com/media/SB5fjrUhAeLte/giphy.gif" href="https://www.petfinder.com/animal-shelters-and-rescues/search" title="Animal Shelter"
             description={[
-              { description: "Search for an animal shelters in your area if your pet is missing." }
+              { description: "Search for an animal shelters in your area if your pet is missing.", url: "https://www.petfinder.com/animal-shelters-and-rescues/search" }
             ]} />
 
           {/* buy emergency kit */}
@@ -69,14 +69,14 @@ function Resources() {
           {/* pet preparedness */}
           <ResourceCard imgUrl="https://media.giphy.com/media/l2JhtCMwgCLcRXmgg/giphy.gif" href="https://www.fema.gov/blog/2019-06-13/pet-preparedness-10-items-youll-need-your-pets-hurricane-emergency-kit" title="Pets"
             description={[
-              { description: "10 things that will helps your pet(s)." },
-              { description: "Remember they are family too." }
+              { description: "10 things that will helps your pet(s).", url: "https://www.fema.gov/blog/2019-06-13/pet-preparedness-10-items-youll-need-your-pets-hurricane-emergency-kit" },
+              { description: "Remember they are family too.", url: "https://www.fema.gov/blog/2019-06-13/pet-preparedness-10-items-youll-need-your-pets-hurricane-emergency-kit" }
             ]} />
 
           {/* retrofit your building */}
           <ResourceCard imgUrl="https://media.giphy.com/media/de4QmZqpcqQMOPL2Mt/giphy.gif" href="https://www.earthquakesafety.com/earthquake-retrofitting-faq.html" title="Retrofitting"
             description={[
-              { description: "Get advice on cost and other questions on retrofit a home or building" },
+              { description: "Get advice on cost and other questions on retrofit a home or building", url: "https://www.earthquakesafety.com/earthquake-retrofitting-faq.html" },
             ]} />
         </Row>
 
