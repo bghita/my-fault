@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Login.css";
 import { Col, Form, Button, Row, Container } from 'react-bootstrap';
-
+import {withRouter} from 'react-router-dom'
 
 class Login extends React.Component {
     userInfo = (e) => {
@@ -11,6 +11,7 @@ class Login extends React.Component {
             password: document.getElementById("formBasicPassword").value
         }
         this.props.oAuthSignin(userInfo);
+        this.props.history.push("/home")
     }
     render() {
         
@@ -41,4 +42,4 @@ class Login extends React.Component {
     }
 }
 
-export default Login;
+export default withRouter(Login);
