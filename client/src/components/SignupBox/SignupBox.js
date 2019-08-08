@@ -1,6 +1,7 @@
 import React from 'react'
 import './SignupBox.css'
 import { Col, Form, Button, Row, Container } from 'react-bootstrap';
+import {withRouter} from 'react-router-dom'
 
 
 class SignupBox extends React.Component {
@@ -13,7 +14,9 @@ class SignupBox extends React.Component {
             email: document.getElementById("formBasicEmail").value,
             password: document.getElementById("formBasicPassword").value
         }
-        this.props.oAuthSignup(userInfo);
+        this.props.oAuthSignup(userInfo)
+        this.props.history.push("/home")
+        
     }
     render() {
         return (
@@ -53,4 +56,4 @@ class SignupBox extends React.Component {
     }
 }
 
-export default SignupBox;
+export default withRouter(SignupBox) ;

@@ -15,6 +15,7 @@ class App extends React.Component {
     oAuth: false
   }
   handleSignup = (data) => {
+    console.log(data)
     oAuth.signup(data).then((res) => {
       window.localStorage.setItem("token", res.data.token)
       this.setState({ oAuth: true })
@@ -25,9 +26,8 @@ class App extends React.Component {
   handleSignin = (data) => {
     oAuth.signin(data).then((res) => {
       window.localStorage.setItem("token", res.data.toke)
-      this.setState({ oAuth: true })
+      this.setState({ oAuth: true });
     }).catch(function (error) {
-      alert("Wrong email or password! sucker!")
     });
   }
   render() {
